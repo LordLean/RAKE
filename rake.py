@@ -86,7 +86,7 @@ class Rake:
     wk_text = [word.lower() for word in wk_text]
     curr = []
     for word in wk_text:
-      if word not in sw and word not in string.punctuation:
+      if word not in self.stopwords and word not in string.punctuation:
         curr.append(word)
         self.allwords.append(word)
         if word == wk_text[-1]:
