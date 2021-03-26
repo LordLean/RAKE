@@ -1,7 +1,7 @@
 # RAKE
 Python implementation of the Rapid Automatic Keyword Extraction (RAKE) algorithm. 
 
-This implementation follows the steps detailed in the [paper](https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470689646.ch1):
+This implementation follows the steps detailed in the [paper](https://www.researchgate.net/publication/227988510_Automatic_Keyword_Extraction_from_Individual_Documents):
     
     Automatic Keyword Extraction from Individual Documents (2010)
     DOI : 10.1002/9780470689646.ch1
