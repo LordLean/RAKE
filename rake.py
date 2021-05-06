@@ -2,6 +2,10 @@ import operator
 import re
 import string
 
+import operator
+import re
+import string
+
 class Rake:
 
   """
@@ -89,7 +93,7 @@ class Rake:
       if word not in self.stopwords and word not in string.punctuation:
         curr.append(word)
         self.allwords.append(word)
-        if i != len(wk_text) - 1:
+        if i == len(wk_text)-1:
           curr = " ".join(curr)
           self.keywords.append(curr)
       else:
